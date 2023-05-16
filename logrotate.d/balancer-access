@@ -1,0 +1,11 @@
+/var/lib/docker/volumes/balancer_log/_data/*.log
+{
+	rotate 7
+	daily
+	missingok
+	notifempty
+	delaycompress
+	compress
+  copytruncate
+	maxsize 1G
+}
